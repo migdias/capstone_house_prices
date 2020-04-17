@@ -65,7 +65,7 @@ Other conclusions:
 - Results are more promissing using One Hot Encoding rather then Label Encoding.
 - From the three regression techniques used, the widely accepted XGBoost Regressor provides the best results.
 
-More information can be found in this blog post: INSERT POST HERE
+More information can be found in this blog post: https://medium.com/@miguel.a.r.diass/using-machine-learning-regression-techniques-to-predict-house-prices-1ad70c77613f
 
 
 ## Acknowledgments
