@@ -8,6 +8,14 @@ So what actually contributes to the price of a house? There are the main easy at
 
 This project is intended to help us have a deeper understanding about what actually influences the price of houses and whether, based on these attributes we can effectively and accurately predict these prices. This could serve as a way of helping realtors make a better informed decision or even clients that want to know how much their perfect house would cost.
 
+The data and the result should be able to answer:
+
+1. What are the highest correlated features to the Sale Price?
+2. Are people building bigger houses in recent years?
+3. Do older houses tend to have less overall quality?
+4. Are Foundations different throughout the years?
+5. What is the best model to predict the prices of houses?
+
 ## Libraries
 
 The libraries used for this project are:
@@ -35,6 +43,12 @@ There are 4 files in this repository:
 - data_description.txt (File with the description of all attributes in the data)
 
 ## Conclusion Summary
+
+1. It is effectively and somewhat accurately to predict the house prices using the data provided.
+2. The usage of high correlated features to construct a reasonable preedicting model.
+3. Results are more promissing using One Hot Encoding rather then Label Encoding.
+4. From the three regression techniques used, the widely accepted XGBoost Regressor provides the best results.
+5. The submission of the test data, using XGBoost Regressor, returned an accuracy of ......
 
 ## Acknowledgments
 
