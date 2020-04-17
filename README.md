@@ -35,11 +35,12 @@ The libraries used for this project are:
 
 ## Files
 
-There are 4 files in this repository:
+There are 5 files in this repository:
 
 - train.csv (Training data containing all attributes and labels)
 - test.csv (Test data contaning all attributes but no labels)
-- House Sales.ipy (Jupyter Notebook containing Preprocessing, Analysis, Modelling and Results of the project)
+- house_sale_preds.csv (Predictions made on the test set with the finished model)
+- HouseSales.ipy (Jupyter Notebook containing Preprocessing, Analysis, Modelling and Results of the project)
 - data_description.txt (File with the description of all attributes in the data)
 
 ## Conclusion Summary
