@@ -64,6 +64,8 @@ Other conclusions:
 - Results are more promissing using One Hot Encoding rather then Label Encoding.
 - From the three regression techniques used, the widely accepted XGBoost Regressor provides the best results.
 
+More information can be found in this blog post: INSERT POST HERE
+
 
 ## Acknowledgments
 
