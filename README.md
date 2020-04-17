@@ -44,11 +44,26 @@ There are 4 files in this repository:
 
 ## Conclusion Summary
 
-1. It is effectively and somewhat accurately to predict the house prices using the data provided.
-2. The usage of high correlated features to construct a reasonable preedicting model.
-3. Results are more promissing using One Hot Encoding rather then Label Encoding.
-4. From the three regression techniques used, the widely accepted XGBoost Regressor provides the best results.
-5. The submission of the test data, using XGBoost Regressor, returned an accuracy of ......
+To simply answer the questions:
+
+1. The highest correlated features are: 'LotFrontage', 'LotArea', 'OverallQual', 'YearBuilt', 'YearRemodAdd',
+       'MasVnrArea', 'BsmtFinSF1', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF',
+       'GrLivArea', 'FullBath', 'HalfBath', 'TotRmsAbvGrd', 'Fireplaces',
+       'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF', 'OpenPorchSF',
+       'SalePrice'
+       
+2. It appears to be the case that in recent houses, the ground living area has been rising.
+3. Usually older houses have lower quality, unless they have been remodeled recently.
+4. Yes. Poured concrete seems to be used throughout the years but is more mainstream nowadays. Around the 90's houses were built mainly with wood foundation. Around the 60's houses were built a lot with Concrete Blocks or Slab. The 20's with Brick Tiles. 1900's with Stone.
+5. The best model seen was XGBoost Regressor with 5000 estimators, 3 max_depth, learning rate of 0.05, colsample_bytree 0.5, min_child_weight 0.7 and alpha = 10.
+
+Other conclusions:
+
+- It is effectively and somewhat accurately to predict the house prices using the data provided.
+- The usage of high correlated features to construct a reasonable preedicting model.
+- Results are more promissing using One Hot Encoding rather then Label Encoding.
+- From the three regression techniques used, the widely accepted XGBoost Regressor provides the best results.
+
 
 ## Acknowledgments
 
